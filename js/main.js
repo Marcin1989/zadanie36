@@ -1,10 +1,10 @@
-let cos = document.querySelector("button");
-console.log(cos);
+let button = document.querySelector("button");
+console.log(button);
 
-cos.textContent = "Klik";
+/* button.textContent = "Klik"; */
 
-cos.onclick = function() {
+button.onclick = function() {
     alert("Klik dziala");
 }
 
-console.log(cos);
+console.log(button);
